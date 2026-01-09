@@ -22,8 +22,8 @@ echo "Building RPM..."
 rm -rf "${RPM_ROOT}" "${RPM_BUILD}"
 mkdir -p "${RPM_ROOT}" "${RPM_BUILD}"/{BUILD,RPMS,SOURCES,SPECS,SRPMS}
 
-# Build RPM with source directory passed via environment
-COSMIC_SESSION_SOURCE="${PROJECT_DIR}" rpmbuild -bb --nodeps \
+# Build RPM with source directory and version passed via environment
+COSMIC_SESSION_SOURCE="${PROJECT_DIR}" COSMIC_SESSION_VERSION="${VERSION}" rpmbuild -bb --nodeps \
     --define "_topdir ${PROJECT_DIR}/${RPM_BUILD}" \
     --define "_binary_payload w2.xzdio" \
     --buildroot "${PROJECT_DIR}/${RPM_ROOT}" \

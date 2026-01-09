@@ -1,6 +1,6 @@
 Name:           cosmic-session
 Epoch:          1
-Version:        0.1.0
+Version:        %{getenv:COSMIC_SESSION_VERSION}
 Release:        1%{?dist}
 Summary:        COSMIC Session Manager (Playtron fork)
 
@@ -43,5 +43,5 @@ install -Dm0644 "%{getenv:COSMIC_SESSION_SOURCE}/LICENSE.md" "%{buildroot}%{_dat
 %{_datadir}/dconf/profile/cosmic
 
 %changelog
-* Thu Jan 09 2026 Playtron <dev@playtron.one> - 0.1.0-1
+* Thu Jan 09 2026 Playtron <dev@playtron.one> - 1.0.0-1
 - Initial RPM package
