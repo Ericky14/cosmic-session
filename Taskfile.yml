@@ -26,12 +26,6 @@ tasks:
 
   build:debug:
     desc: Build debug build
-    sources:
-      - Cargo.lock
-      - ./src/*.rs
-      - ./src/**/*.rs
-    generates:
-      - target/{{.TARGET_ARCH}}/debug/{{.NAME}}
     cmds:
       - cargo build {{.ARG | default ""}} --target {{.TARGET_ARCH}}
 
@@ -39,11 +33,6 @@ tasks:
     desc: Build release build
     aliases:
       - build
-    sources:
-      - Cargo.lock
-      - ./**/*.rs
-    generates:
-      - target/{{.TARGET_ARCH}}/release/{{.NAME}}
     cmds:
       - cargo build --release --target {{.TARGET_ARCH}}
 
