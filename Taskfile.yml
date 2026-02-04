@@ -100,7 +100,7 @@ tasks:
       - cp ./pkg/rpm/{{.NAME}}.spec ~/rpmbuild/SPECS
       - cp dist/{{.NAME}}-{{.ARCH}}.tar.gz ~/rpmbuild/SOURCES
       - rpmbuild -bb --target {{.ARCH}} ~/rpmbuild/SPECS/{{.NAME}}.spec
-      - cp ~/rpmbuild/RPMS/{{.ARCH}}/{{.NAME}}-{{.VERSION}}-1.{{.ARCH}}.rpm dist
+      - cp ~/rpmbuild/RPMS/{{.ARCH}}/{{.NAME}}-{{.VERSION}}-*.{{.ARCH}}.rpm dist
 
   dist:all:
     desc: Build all supported distributable packages
