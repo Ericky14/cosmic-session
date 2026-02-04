@@ -1,3 +1,10 @@
+## [1.0.1](https://github.com/playtron-os/cosmic-session/compare/v1.0.0...v1.0.1) (2026-02-04)
+
+
+### Bug Fixes
+
+* use sed in CI version replacement and exit early if no release generated ([89da3be](https://github.com/playtron-os/cosmic-session/commit/89da3be6718def9e7e23a4eec71eaf4e9769d976))
+
 # 1.0.0 (2026-02-04)
 
 
