@@ -34,3 +34,6 @@ debian/*
 !debian/source
 
 dist/
+.task
+.cache
+node_modules
