@@ -1,3 +1,11 @@
+## [1.0.3](https://github.com/playtron-os/cosmic-session/compare/v1.0.2...v1.0.3) (2026-02-04)
+
+
+### Bug Fixes
+
+* add pr/issues permissions to release CI ([04fd475](https://github.com/playtron-os/cosmic-session/commit/04fd47503965887554dc8095bd6a2ef9d52ef569))
+* update rpm spec package requires ([3467ef0](https://github.com/playtron-os/cosmic-session/commit/3467ef0620fe2580b97d8355d73c05498bf02b5f))
+
 ## [1.0.2](https://github.com/playtron-os/cosmic-session/compare/v1.0.1...v1.0.2) (2026-02-04)
 
 
