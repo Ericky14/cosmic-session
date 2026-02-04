@@ -1,3 +1,10 @@
+# [1.1.0](https://github.com/playtron-os/cosmic-session/compare/v1.0.3...v1.1.0) (2026-02-04)
+
+
+### Features
+
+* forward cosmic-comp related vars ([7c5bdff](https://github.com/playtron-os/cosmic-session/commit/7c5bdff1d6da3f408f9f47aa16eab95bdfbf8145))
+
 ## [1.0.3](https://github.com/playtron-os/cosmic-session/compare/v1.0.2...v1.0.3) (2026-02-04)
 
 
