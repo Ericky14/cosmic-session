@@ -1,3 +1,10 @@
+## [1.0.2](https://github.com/playtron-os/cosmic-session/compare/v1.0.1...v1.0.2) (2026-02-04)
+
+
+### Bug Fixes
+
+* in CI upload rpms and add concurrency config ([4e94557](https://github.com/playtron-os/cosmic-session/commit/4e94557d84765828bd93dd1054882d37ded9adfd))
+
 ## [1.0.1](https://github.com/playtron-os/cosmic-session/compare/v1.0.0...v1.0.1) (2026-02-04)
 
 
